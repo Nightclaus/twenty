@@ -1,6 +1,9 @@
 {
   "name": "twenty-website",
   "private": true,
+  "engines": {
+    "node": "^18.17.1"
+  },
   "scripts": {
     "nx": "NX_DEFAULT_PROJECT=twenty-website node ../../node_modules/nx/bin/nx.js",
     "dev": "npx next dev",
